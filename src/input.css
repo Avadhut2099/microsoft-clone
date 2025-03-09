@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .bg-m365 {
+    background-image: url("/images/container/md-m365.avif");
+    background-size: cover;
+    background-position: center;
+  }
+}
